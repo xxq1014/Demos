@@ -1,0 +1,591 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f5f5f5; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 90px;
+  background: #fff; }
+  header .header {
+    width: 1225px;
+    height: 90px;
+    margin: 0 auto; }
+    header .header a img {
+      float: left;
+      margin-top: 26px;
+      margin-right: 5px; }
+    header .header ul {
+      margin-left: 237px;
+      margin-top: -57px; }
+      header .header ul li a {
+        font-size: 16px;
+        color: #333333;
+        float: left;
+        padding: 0 23px;
+        font-family: "Microsoft YaHei"; }
+      header .header ul li a:hover {
+        color: #29b572; }
+    header .header div {
+      float: right; }
+      header .header div span a {
+        font-size: 14px;
+        color: #333333;
+        font-family: "Microsoft YaHei"; }
+      header .header div span a:hover {
+        color: #29b572; }
+      header .header div i {
+        font-style: normal;
+        padding: 0 11px;
+        color: #cccccc; }
+
+/* 轮播图 及登录 */
+.headerTop {
+  width: 1225px;
+  margin: 31px auto 0;
+  overflow: hidden;
+  /* 登陆 */ }
+  .headerTop .lunBo {
+    width: 977px;
+    height: 346px;
+    float: left; }
+    .headerTop .lunBo ul li {
+      width: 977px;
+      height: 346px;
+      overflow: hidden;
+      position: absolute;
+      opacity: 0; }
+    .headerTop .lunBo ul .active {
+      opacity: 1; }
+    .headerTop .lunBo ol li {
+      float: left;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #ceced2;
+      position: relative;
+      margin-left: 12px;
+      top: 315px;
+      left: 865px;
+      cursor: pointer; }
+    .headerTop .lunBo ol .active {
+      background-color: #29b572; }
+  .headerTop .land {
+    float: right;
+    width: 248px;
+    height: 346px;
+    background-color: #fff;
+    /* 新手入门 */ }
+    .headerTop .land .landT {
+      width: 208px;
+      height: 89px;
+      border-bottom: 1px solid #e8e8e8;
+      margin: 0 auto; }
+      .headerTop .land .landT .touXiang {
+        width: 60px;
+        height: 60px;
+        background-image: url("../images/touxiang.png");
+        margin-top: 22px; }
+      .headerTop .land .landT span {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #666666;
+        line-height: 20px;
+        display: block;
+        position: relative;
+        left: 77px;
+        top: -60px; }
+      .headerTop .land .landT [type=button] {
+        width: 60px;
+        height: 22px;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: "Microsoft YaHei";
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        top: -48px; }
+      .headerTop .land .landT .landBtn {
+        left: 76px;
+        background-color: #29b572;
+        color: #fff; }
+      .headerTop .land .landT .landBtn:hover {
+        background-color: #029850; }
+      .headerTop .land .landT .logonBtn {
+        left: 85px;
+        background-color: #fff;
+        color: #29b572; }
+      .headerTop .land .landT .logonBtn:hover {
+        background-color: #29b572;
+        color: #fff; }
+    .headerTop .land .gongNeng {
+      width: 208px;
+      height: 191px;
+      border-bottom: 1px solid #e8e8e8;
+      margin: 0 auto; }
+      .headerTop .land .gongNeng .xinShou {
+        float: left;
+        margin-top: 15px;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #333333; }
+      .headerTop .land .gongNeng .jingYing {
+        float: right;
+        margin-top: 15px;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #666666; }
+        .headerTop .land .gongNeng .jingYing i {
+          font-weight: normal;
+          margin-left: 4px; }
+      .headerTop .land .gongNeng .jingYing:hover {
+        color: #29b572; }
+      .headerTop .land .gongNeng .student {
+        width: 102px;
+        text-align: center;
+        display: inline-block; }
+        .headerTop .land .gongNeng .student div {
+          width: 40px;
+          background-image: url("../images/bg1.png"); }
+        .headerTop .land .gongNeng .student a .student1 {
+          height: 39px;
+          background-position: 0 0;
+          margin: 15px auto 0; }
+        .headerTop .land .gongNeng .student a .student2 {
+          height: 39px;
+          background-position: 0 -30px;
+          margin: 15px auto 5px; }
+        .headerTop .land .gongNeng .student a .student3 {
+          height: 39px;
+          background-position: 0 -70px;
+          margin: 17px auto 0; }
+        .headerTop .land .gongNeng .student a .student4 {
+          height: 39px;
+          background-position: 0 -107px;
+          margin: 17px auto 0; }
+        .headerTop .land .gongNeng .student a span {
+          color: #808080;
+          font-size: 13px; }
+        .headerTop .land .gongNeng .student a:hover .student1 {
+          background-position: 0 -149px; }
+        .headerTop .land .gongNeng .student a:hover .student2 {
+          background-position: 0 -179px; }
+        .headerTop .land .gongNeng .student a:hover .student3 {
+          background-position: 0 -219px; }
+        .headerTop .land .gongNeng .student a:hover .student4 {
+          background-position: 0 -256px; }
+        .headerTop .land .gongNeng .student a:hover span {
+          color: #29b572; }
+    .headerTop .land .nei {
+      margin-left: 26px; }
+      .headerTop .land .nei li a {
+        float: left;
+        padding: 13px 18px 0;
+        text-decoration: underline;
+        color: #666666;
+        font-size: 14px;
+        font-family: "Microsoft YaHei"; }
+      .headerTop .land .nei li a:hover {
+        color: #29b572; }
+
+/* 课程学习 */
+.headerB {
+  width: 1225px;
+  height: 136px;
+  margin: 20px auto 0;
+  background-color: #fff; }
+  .headerB .base {
+    float: left;
+    width: 244px;
+    margin-top: 38px; }
+    .headerB .base .problem {
+      width: 80px;
+      height: 60px;
+      background: url(../images/bg2.png) no-repeat;
+      border-left: 1px solid #e8e8e8;
+      float: left;
+      display: inline-block; }
+    .headerB .base .pr1 {
+      background-position: 20px 0;
+      border-left: none; }
+    .headerB .base .pr2 {
+      background-position: 20px -68px; }
+    .headerB .base .pr3 {
+      background-position: 20px -136px; }
+    .headerB .base .pr4 {
+      background-position: 20px -204px; }
+    .headerB .base .pr5 {
+      background-position: 20px -272px; }
+    .headerB .base .pro {
+      margin-top: -5px;
+      margin-left: 94px;
+      font-size: 14px;
+      font-family: "Songti SC"; }
+      .headerB .base .pro a {
+        color: #666666; }
+      .headerB .base .pro a:hover {
+        color: #29b572; }
+    .headerB .base span {
+      width: 135px;
+      display: inline-block;
+      font-size: 12px;
+      font-family: "Microsoft YaHei";
+      margin-left: 14px;
+      line-height: 18px;
+      margin-top: 3px;
+      color: #999999; }
+
+/* 在线课程 */
+.keCheng {
+  width: 1225px;
+  margin: 36px auto 0; }
+  .keCheng .course {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: #333333; }
+  .keCheng .lei {
+    width: 1225px;
+    height: 184px;
+    background-color: #fff;
+    margin-top: 20px; }
+    .keCheng .lei ul li {
+      float: left;
+      margin-left: 15px;
+      margin-top: 20px; }
+      .keCheng .lei ul li div {
+        width: 225px;
+        height: 144px;
+        margin-top: -146px;
+        position: relative; }
+      .keCheng .lei ul li .meng:hover {
+        background-color: rgba(0, 0, 0, 0.1); }
+      .keCheng .lei ul li .meng1 {
+        opacity: 0; }
+      .keCheng .lei ul li .meng1:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 14px;
+        color: #fff;
+        line-height: 144px;
+        text-align: center; }
+    .keCheng .lei ul li:nth-child(1) {
+      margin-left: 20px; }
+
+/* 学习方式 */
+.fangShi {
+  width: 1225px;
+  margin: 36px auto 0; }
+  .fangShi .way {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: #333333; }
+  .fangShi .skills {
+    width: 1225px;
+    height: 352px;
+    background-color: #fff;
+    margin-top: 21px; }
+    .fangShi .skills ul li {
+      text-align: center;
+      float: left; }
+      .fangShi .skills ul li img {
+        padding-top: 40px; }
+      .fangShi .skills ul li span {
+        font-family: "Microsoft YaHei";
+        display: block;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #333333; }
+      .fangShi .skills ul li p {
+        font-family: "Microsoft YaHei";
+        font-size: 13px;
+        margin-top: 10px;
+        line-height: 20px;
+        color: #999999;
+        text-align: left; }
+    .fangShi .skills ul li:nth-child(1) {
+      width: 221px;
+      margin-left: 35px; }
+      .fangShi .skills ul li:nth-child(1) p {
+        width: 221px; }
+    .fangShi .skills ul li:nth-child(2) {
+      width: 234px;
+      margin-left: 66px; }
+      .fangShi .skills ul li:nth-child(2) p {
+        width: 234px; }
+    .fangShi .skills ul li:nth-child(3) {
+      width: 247px;
+      margin-left: 66px; }
+      .fangShi .skills ul li:nth-child(3) p {
+        width: 247px; }
+    .fangShi .skills ul li:nth-child(4) {
+      width: 234px;
+      margin-left: 65px; }
+      .fangShi .skills ul li:nth-child(4) p {
+        width: 247px; }
+
+/* 学习用户 */
+.user {
+  width: 1225px;
+  margin: 45px auto 0; }
+  .user dl dt {
+    font-size: 26px;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+    display: inline; }
+    .user dl dt i {
+      font-style: normal;
+      color: #ea9b65; }
+  .user dl dd {
+    font-family: "Microsoft YaHei";
+    display: inline;
+    color: #666666;
+    font-size: 22px;
+    margin-left: 6px; }
+  .user .people {
+    width: 1225px;
+    height: 366px;
+    background-color: #fff;
+    margin-top: 17px;
+    padding-top: 41px; }
+    .user .people li {
+      width: 198px;
+      height: 324px;
+      text-align: center;
+      border-left: 1px solid #f2f2f2;
+      border-right: 1px solid #f2f2f2;
+      border-bottom: 2px solid #8dd3b2;
+      float: left; }
+      .user .people li span {
+        display: block;
+        font-size: 14px;
+        color: #333333;
+        font-family: "Microsoft YaHei"; }
+      .user .people li span:nth-child(2) {
+        margin-top: 30px; }
+      .user .people li span:nth-child(3) {
+        margin-top: 5px; }
+      .user .people li span:nth-child(4) {
+        margin-top: 5px; }
+      .user .people li span:nth-child(5) {
+        margin-top: 30px; }
+      .user .people li span:nth-child(6) {
+        margin-top: 10px;
+        font-size: 24px; }
+    .user .people li:nth-child(1) {
+      margin-left: 17px; }
+    .user .people li:nth-child(2) {
+      margin-left: 49px; }
+    .user .people li:nth-child(3) {
+      margin-left: 46px; }
+    .user .people li:nth-child(4) {
+      margin-left: 48px; }
+    .user .people li:nth-child(5) {
+      margin-left: 50px; }
+
+/* 合作机构 */
+.cooperate {
+  width: 1225px;
+  margin: 59px auto 52px;
+  position: relative; }
+  .cooperate .organization {
+    color: #333333;
+    font-size: 24px;
+    font-family: "Microsoft YaHei"; }
+  .cooperate .partner {
+    width: 1225px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 18px;
+    padding-top: 50px; }
+    .cooperate .partner .xunHuan {
+      width: 1154px;
+      height: 50px;
+      margin-left: 36px;
+      overflow: hidden; }
+      .cooperate .partner .xunHuan .xun {
+        width: 1655px;
+        height: 50px;
+        overflow: hidden;
+        position: relative; }
+        .cooperate .partner .xunHuan .xun li {
+          float: left;
+          margin-left: 15px; }
+        .cooperate .partner .xunHuan .xun li:nth-child(1) {
+          margin-left: 0px; }
+  .cooperate .pre {
+    width: 8px;
+    height: 15px;
+    background-image: url(../images/pre.png);
+    position: absolute;
+    top: 50%;
+    margin-top: 15px;
+    left: 7px;
+    cursor: pointer; }
+  .cooperate .pre:hover {
+    background-image: url(../images/preH.png); }
+  .cooperate .next {
+    width: 8px;
+    height: 15px;
+    background-image: url(../images/next.png);
+    position: absolute;
+    top: 50%;
+    margin-top: 15px;
+    right: 7px;
+    cursor: pointer; }
+  .cooperate .next:hover {
+    background-image: url(../images/nextH.png); }
+
+/* 底部 */
+footer {
+  width: 100%;
+  height: 372px;
+  background-color: #fff; }
+  footer .footer {
+    width: 1225px;
+    height: 301px;
+    margin: 0 auto;
+    position: relative; }
+    footer .footer .friendship {
+      width: 1225px;
+      height: 60px;
+      border-bottom: 1px solid #e8e8e8; }
+      footer .footer .friendship .linking {
+        font-size: 22px;
+        color: #333333;
+        padding-top: 14px;
+        font-family: "Microsoft YaHei"; }
+      footer .footer .friendship ul {
+        margin-left: 80px;
+        margin-top: -25px; }
+        footer .footer .friendship ul li a {
+          float: left;
+          margin-left: 40px;
+          font-family: "Microsoft YaHei";
+          font-size: 14px;
+          color: #676767; }
+        footer .footer .friendship ul li a:hover {
+          color: #333333; }
+      footer .footer .friendship .more {
+        float: right;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #676767; }
+        footer .footer .friendship .more i {
+          font-family: none;
+          font-style: normal;
+          color: #999999;
+          margin-left: 4px; }
+      footer .footer .friendship .more:hover {
+        color: #333333; }
+    footer .footer .content {
+      float: left; }
+      footer .footer .content h3 {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #333333;
+        margin-top: 33px;
+        padding-bottom: 17px; }
+      footer .footer .content li {
+        margin-top: 11px; }
+        footer .footer .content li a {
+          font-size: 13px;
+          font-family: "Microsoft YaHei";
+          color: #676767; }
+        footer .footer .content li a:hover {
+          color: #333333; }
+    footer .footer .content:nth-child(3) {
+      margin-left: 80px; }
+    footer .footer .content:nth-child(4) {
+      margin-left: 109px; }
+    footer .footer .content:nth-child(5) {
+      margin-left: 116px; }
+    footer .footer .content:nth-child(6) {
+      margin-left: 122px; }
+      footer .footer .content:nth-child(6) img {
+        margin-top: 10px; }
+    footer .footer .app {
+      float: right; }
+      footer .footer .app h3 {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #333333;
+        margin-top: 33px; }
+      footer .footer .app img {
+        margin-top: 22px; }
+      footer .footer .app span {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #676767;
+        font-family: "Microsoft YaHei";
+        text-align: center; }
+  footer .bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #e8e8e8; }
+    footer .bottom span {
+      display: block;
+      width: 1224px;
+      margin: 0 auto;
+      padding-top: 18px;
+      text-align: center;
+      font-size: 13px;
+      font-family: "Microsoft YaHei";
+      color: #808080; }
+
+/* 侧边栏 */
+.ceBian {
+  width: 1225px;
+  margin: 0 auto; }
+  .ceBian .upward {
+    width: 60px;
+    height: 297px;
+    position: fixed;
+    margin-left: 1245px;
+    bottom: 20px; }
+    .ceBian .upward a {
+      /* 公众号 */
+      /* 回到顶部 */ }
+      .ceBian .upward a div {
+        width: 58px;
+        height: 63px;
+        background-color: #fff;
+        border-top: 1px solid #ededed;
+        border-left: 1px solid #ededed;
+        border-right: 1px solid #ededed; }
+      .ceBian .upward a .WeChat {
+        text-align: center;
+        padding-top: 15px; }
+        .ceBian .upward a .WeChat span {
+          display: block;
+          text-align: center;
+          font-size: 12px;
+          font-family: "Microsoft YaHei";
+          color: #29b572;
+          margin-top: 5px; }
+      .ceBian .upward a .WeChat:hover {
+        background: #f5f5f5; }
+      .ceBian .upward a .up {
+        width: 60px;
+        height: 60px;
+        border: none;
+        background: #29b572 url(../images/top.png) 15px 21px no-repeat;
+        cursor: pointer; }
+    .ceBian .upward .WeChatTu {
+      width: 182px;
+      height: 172px;
+      background-image: url(../images/WeChet.png);
+      position: absolute;
+      margin-left: -192px;
+      margin-top: -125px;
+      display: none; }

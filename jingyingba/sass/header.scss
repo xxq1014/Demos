@@ -1,0 +1,66 @@
+@import "reset.scss";
+$fontfamily: "Microsoft YaHei";
+header{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	.header{
+		width: 1225px;
+		height: 90px;
+		margin: 0 auto;
+		.logo{
+			float: left;
+			margin-top: 26px;
+		}
+		.excavate{
+			float: left;
+			width: 105px;
+			height: 40px;
+			border-left: 1px solid #cccccc;
+			text-align: center;
+			font-family: $fontfamily;
+			font-size: 14px;
+			line-height: 40px;
+			color: #999999;
+			margin-top: 26px;
+			margin-left: 10px;
+		}
+		.keMu{
+			padding-top: 35px;
+			li{
+				a{
+					font-size: 16px;
+					color: #333333;
+					float: left;
+					padding: 0 23px;
+					font-family: $fontfamily;
+				}
+				a:hover{
+					color: #29b572;
+				}
+			}
+		}
+		.center{
+			float: right;
+			margin-top: -10px;
+			.avatar{
+				display: inline-block;
+				float: left;
+			}
+			a{
+				span{
+					float: left;
+					font-size: 12px;
+					color: #333333;
+					font-family: $fontfamily;
+					line-height: 40px;
+					margin-left: 5px;
+				}
+				img{
+					margin-left: 3px;
+					margin-top: 18px;
+				}
+			}
+		}
+	}
+}

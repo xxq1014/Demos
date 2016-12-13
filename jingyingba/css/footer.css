@@ -1,0 +1,96 @@
+footer {
+  width: 100%;
+  height: 372px;
+  background-color: #fff; }
+  footer .footer {
+    width: 1225px;
+    height: 301px;
+    margin: 0 auto;
+    position: relative; }
+    footer .footer .friendship {
+      width: 1225px;
+      height: 60px;
+      border-bottom: 1px solid #e8e8e8; }
+      footer .footer .friendship .linking {
+        font-size: 22px;
+        color: #333333;
+        padding-top: 14px;
+        font-family: "Microsoft YaHei"; }
+      footer .footer .friendship ul {
+        margin-left: 80px;
+        margin-top: -25px; }
+        footer .footer .friendship ul li a {
+          float: left;
+          margin-left: 40px;
+          font-family: "Microsoft YaHei";
+          font-size: 14px;
+          color: #676767; }
+        footer .footer .friendship ul li a:hover {
+          color: #333333; }
+      footer .footer .friendship .more {
+        float: right;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #676767; }
+        footer .footer .friendship .more i {
+          font-family: none;
+          font-style: normal;
+          color: #999999;
+          margin-left: 4px; }
+      footer .footer .friendship .more:hover {
+        color: #333333; }
+    footer .footer .content {
+      float: left; }
+      footer .footer .content h3 {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #333333;
+        margin-top: 33px;
+        padding-bottom: 17px; }
+      footer .footer .content li {
+        margin-top: 11px; }
+        footer .footer .content li a {
+          font-size: 13px;
+          font-family: "Microsoft YaHei";
+          color: #676767; }
+        footer .footer .content li a:hover {
+          color: #333333; }
+    footer .footer .content:nth-child(3) {
+      margin-left: 80px; }
+    footer .footer .content:nth-child(4) {
+      margin-left: 109px; }
+    footer .footer .content:nth-child(5) {
+      margin-left: 116px; }
+    footer .footer .content:nth-child(6) {
+      margin-left: 122px; }
+      footer .footer .content:nth-child(6) img {
+        margin-top: 10px; }
+    footer .footer .app {
+      float: right; }
+      footer .footer .app h3 {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #333333;
+        margin-top: 33px; }
+      footer .footer .app img {
+        margin-top: 22px; }
+      footer .footer .app span {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #676767;
+        font-family: "Microsoft YaHei";
+        text-align: center; }
+  footer .bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #e8e8e8; }
+    footer .bottom span {
+      display: block;
+      width: 1224px;
+      margin: 0 auto;
+      padding-top: 18px;
+      text-align: center;
+      font-size: 13px;
+      font-family: "Microsoft YaHei";
+      color: #808080; }

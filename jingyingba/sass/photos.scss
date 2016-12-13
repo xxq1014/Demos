@@ -1,0 +1,51 @@
+@import "reset.scss";
+@import "header.scss";
+/* 北京蓝鸥科技教育培训学校有限公司 */
+.corporation{
+	width: 1185px;
+	height: 206px;
+	background-color: #fff;
+	margin: 31px auto 0;
+	padding: 25px 20px;
+	position: relative;
+	h2{
+		display: inline;
+		font-size: 24px;
+		font-family: $fontfamily;
+		position: absolute;
+		top: 26px;
+		left: 383px;
+	}
+	.grade{
+		width: 504px;
+		height: 68px;
+		border: 1px solid #e8e8e8;
+		position: absolute;
+		top: 82px;
+		left: 383px;
+		.star{
+			width: 140px;
+			height: 16px;
+			margin-top: -9px;
+			margin-left: 10px;
+			background-color: #fff;
+			div{
+				width: 16px;
+				height: 16px;
+				background-image: url(../images/tubiao.png);
+				background-position: 0 -1003px;
+				margin-left: 7px;
+				display: inline-block;
+			}
+		}
+		.place{
+			width: 11px;
+			height: 13px;
+			background-image: url(../images/tubiao.png);
+			background-position: -2px -629px;
+			margin-top: 29px;
+			margin-left: 20px;
+			display: inline-block;
+		}
+	}
+}

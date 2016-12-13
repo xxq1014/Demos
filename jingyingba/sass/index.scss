@@ -1,0 +1,618 @@
+@import "reset.scss";
+$fontfamily: "Microsoft YaHei";
+header{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	.header{
+		width: 1225px;
+		height: 90px;
+		margin: 0 auto;
+		a{
+			img{
+				float: left;
+				margin-top: 26px;
+				margin-right: 5px;
+			}
+		}
+		ul{
+			margin-left: 237px;
+			margin-top: -57px;
+			li{
+				a{
+					font-size: 16px;
+					color: #333333;
+					float: left;
+					padding: 0 23px;
+					font-family: $fontfamily;
+				}
+				a:hover{
+					color: #29b572;
+				}
+			}
+		}
+		div{
+			float: right;
+			span{
+				a{
+					font-size: 14px;
+					color: #333333;
+					font-family: $fontfamily;
+				}
+				a:hover{
+					color: #29b572;
+				}
+			}
+			i{
+				font-style: normal;
+				padding: 0 11px;
+				color: #cccccc;
+			}
+		}
+	}
+}
+/* 轮播图 及登录 */
+.headerTop{
+	width: 1225px;
+	margin: 31px auto 0;
+	overflow: hidden;
+	.lunBo{
+		width: 977px;
+		height: 346px;
+		float: left;
+		ul{
+			li{
+				width: 977px;
+				height: 346px;
+				overflow: hidden;
+				position: absolute;
+				opacity: 0;
+			}
+			.active{
+				opacity: 1;
+			}
+		}
+		ol{
+			li{
+				float: left;
+				width: 14px;
+				height: 14px;
+				border-radius: 50%;
+				background-color: #ceced2;
+				position: relative;
+				margin-left: 12px;
+				top: 315px;
+				left: 865px;
+				cursor: pointer;
+			}
+			.active{
+				background-color: #29b572;
+			}
+		}
+	}
+	/* 登陆 */
+	.land{
+		float: right;
+		width: 248px;
+		height: 346px;
+		background-color: #fff;
+		.landT{
+			width: 208px;
+			height: 89px;
+			border-bottom: 1px solid #e8e8e8;
+			margin: 0 auto;
+			.touXiang{
+				width: 60px;
+				height: 60px;
+				background-image: url("../images/touxiang.png");
+				margin-top: 22px;
+			}
+			span{
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #666666;
+				line-height: 20px;
+				display: block;
+				position: relative;
+				left: 77px;
+				top: -60px;
+			}
+			[type=button]{
+				width: 60px;
+				height: 22px;
+				font-size: 14px;
+				line-height: 22px;
+				font-family: $fontfamily;
+				border-radius: 2px;
+				cursor: pointer;
+				border: none;
+				position: relative;
+				top: -48px;
+			}
+			.landBtn{
+				left: 76px;
+				background-color: #29b572;
+				color: #fff;
+			}
+			.landBtn:hover{
+				background-color: #029850;
+			}
+			.logonBtn{
+				left: 85px;
+				background-color: #fff;
+				color: #29b572;
+			}
+			.logonBtn:hover{
+				background-color: #29b572;
+				color: #fff;
+			}
+		}
+		/* 新手入门 */
+		.gongNeng{
+			width: 208px;
+			height: 191px;
+			border-bottom: 1px solid #e8e8e8;
+			margin: 0 auto;
+			.xinShou{
+				float: left;
+				margin-top: 15px;
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #333333;
+			}
+			.jingYing{
+				float: right;
+				margin-top: 15px;
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #666666;
+				i{
+					font-weight: normal;
+					margin-left: 4px;
+				}
+			}
+			.jingYing:hover{
+				color: #29b572;
+			}
+			.student{
+				width: 102px;
+				text-align: center;
+				display: inline-block;
+				div{
+					width: 40px;
+					background-image: url("../images/bg1.png");
+				}
+				a{
+					.student1{
+						height: 39px;
+						background-position: 0 0;
+						margin: 15px auto 0;
+					}
+					.student2{
+						height: 39px;
+						background-position: 0 -30px;
+						margin: 15px auto 5px;
+					}
+					.student3{
+						height: 39px;
+						background-position: 0 -70px;
+						margin: 17px auto 0;
+					}
+					.student4{
+						height: 39px;
+						background-position: 0 -107px;
+						margin: 17px auto 0;
+					}
+					span{
+						color: #808080;
+						font-size: 13px;
+					}
+				}
+				a:hover{
+					.student1{
+						background-position: 0 -149px;
+					}
+					.student2{
+						background-position: 0 -179px;
+					}
+					.student3{
+						background-position: 0 -219px;
+					}
+					.student4{
+						background-position: 0 -256px;
+					}
+				}
+				a:hover span{
+					color: #29b572;
+				}
+			}
+		}
+		.nei{
+			margin-left: 26px;
+			li{
+				a{
+					float: left;
+					padding: 13px 18px 0;
+					text-decoration: underline;
+					color: #666666;
+					font-size: 14px;
+					font-family: $fontfamily;
+				}
+				a:hover{
+					color: #29b572;
+				}
+			}
+		}
+	}
+}
+/* 课程学习 */
+.headerB{
+	width: 1225px;
+	height: 136px;
+	margin: 20px auto 0;
+	background-color: #fff;
+	.base{
+		float: left;
+		width: 244px;
+		margin-top: 38px;
+		.problem{
+			width: 80px;
+			height: 60px;
+			background: url(../images/bg2.png) no-repeat;
+			border-left: 1px solid #e8e8e8;
+			float: left;
+			display: inline-block;
+		}
+		.pr1{
+			background-position: 20px 0;
+			border-left: none;
+		}
+		.pr2{
+			background-position: 20px -68px;
+		}
+		.pr3{
+			background-position: 20px -136px;
+		}
+		.pr4{
+			background-position: 20px -204px;
+		}
+		.pr5{
+			background-position: 20px -272px;
+		}
+		.pro{
+			margin-top: -5px;
+			margin-left: 94px;
+			font-size: 14px;
+			font-family: "Songti SC";
+			a{
+				color: #666666;
+			}
+			a:hover{
+				color: #29b572;
+			}
+		}
+		span{
+			width: 135px;
+			display: inline-block;
+			font-size: 12px;
+			font-family: $fontfamily;
+			margin-left: 14px;
+			line-height: 18px;
+			margin-top: 3px;
+			color: #999999;
+		}
+	}
+}
+/* 在线课程 */
+.keCheng{
+	width: 1225px;
+	margin: 36px auto 0;
+	.course{
+		font-size: 24px;
+		font-family: $fontfamily;
+		color: #333333;
+	}
+	.lei{
+		width: 1225px;
+		height: 184px;
+		background-color: #fff;
+		margin-top: 20px;
+		ul{
+			li{
+				float: left;
+				margin-left: 15px;
+				margin-top: 20px;
+				div{
+					width: 225px;
+					height: 144px;
+					margin-top: -146px;
+					position: relative;
+				}
+				.meng:hover{
+					background-color: rgba(0,0,0,0.1);
+				}
+				.meng1{
+					opacity: 0;
+				}
+				.meng1:hover{
+					opacity: 1;
+					background-color: rgba(0,0,0,0.3);
+					font-size: 14px;
+					color: #fff;
+					line-height: 144px;
+					text-align: center;
+				}
+			}
+			li:nth-child(1){
+				margin-left: 20px;
+			}
+		}
+	}
+}
+/* 学习方式 */
+.fangShi{
+	width: 1225px;
+	margin: 36px auto 0;
+	.way{
+		font-size: 24px;
+		font-family: $fontfamily;
+		color: #333333;
+	}
+	.skills{
+		width: 1225px;
+		height: 352px;
+		background-color: #fff;
+		margin-top: 21px;
+		ul{
+			li{
+				text-align: center;
+				float: left;
+				img{
+					padding-top: 40px;
+				}
+				span{
+					font-family: $fontfamily;
+					display: block;
+					font-size: 16px;
+					margin-top: 20px;
+					color: #333333;
+				}
+				p{
+					font-family: $fontfamily;
+					font-size: 13px;
+					margin-top: 10px;
+					line-height: 20px;
+					color: #999999;
+					text-align: left;
+				}
+			}
+			li:nth-child(1){
+				width: 221px;
+				margin-left: 35px;
+				p{
+					width: 221px;
+				}
+			}
+			li:nth-child(2){
+				width: 234px;
+				margin-left: 66px;
+				p{
+					width: 234px;
+				}
+			}
+			li:nth-child(3){
+				width: 247px;
+				margin-left: 66px;
+				p{
+					width: 247px;
+				}
+			}
+			li:nth-child(4){
+				width: 234px;
+				margin-left: 65px;
+				p{
+					width: 247px;
+				}
+			}
+		}
+	}
+}
+/* 学习用户 */
+.user{
+	width: 1225px;
+	margin: 45px auto 0;
+	dl{
+		dt{
+			font-size: 26px;
+			font-family: $fontfamily;
+			color: #333333;
+			display: inline;
+			i{
+				font-style: normal;
+				color: #ea9b65;
+			}
+		}
+		dd{
+			font-family: $fontfamily;
+			display: inline;
+			color: #666666;
+			font-size: 22px;
+			margin-left: 6px;
+		}
+	}
+	.people{
+		width: 1225px;
+		height: 366px;
+		background-color: #fff;
+		margin-top: 17px;
+		padding-top: 41px;
+		li{
+			width: 198px;
+			height: 324px;
+			text-align: center;
+			border-left: 1px solid #f2f2f2;
+			border-right: 1px solid #f2f2f2;
+			border-bottom: 2px solid #8dd3b2;
+			float: left;
+			span{
+				display: block;
+				font-size: 14px;
+				color: #333333;
+				font-family: $fontfamily;
+			}
+			span:nth-child(2){
+				margin-top: 30px;
+			}
+			span:nth-child(3){
+				margin-top: 5px;
+			}
+			span:nth-child(4){
+				margin-top: 5px;
+			}
+			span:nth-child(5){
+				margin-top: 30px;
+			}
+			span:nth-child(6){
+				margin-top: 10px;
+				font-size: 24px;
+			}
+		}
+		li:nth-child(1){
+			margin-left: 17px;
+		}
+		li:nth-child(2){
+			margin-left: 49px;
+		}
+		li:nth-child(3){
+			margin-left: 46px;
+		}
+		li:nth-child(4){
+			margin-left: 48px;
+		}
+		li:nth-child(5){
+			margin-left: 50px;
+		}
+	}
+}
+/* 合作机构 */
+.cooperate{
+	width: 1225px;
+	margin: 59px auto 52px;
+	position: relative;
+	.organization{
+		color: #333333;
+		font-size: 24px;
+		font-family: $fontfamily;
+	}
+	.partner{
+		width: 1225px;
+		height: 100px;
+		background-color: #fff;
+		margin-top: 18px;
+		padding-top: 50px;
+		.xunHuan{
+			width: 1154px;
+			height: 50px;
+			margin-left: 36px;
+			overflow: hidden;
+			.xun{
+				width: 1655px;
+				height: 50px;
+				overflow: hidden;
+				position: relative;
+				li{
+					float: left;
+					margin-left: 15px;
+				}
+				li:nth-child(1){
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	.pre{
+		width: 8px;
+		height: 15px;
+		background-image: url(../images/pre.png);
+		position: absolute;
+		top: 50%;
+		margin-top: 15px;
+		left: 7px;
+		cursor: pointer;
+	}
+	.pre:hover{
+		background-image: url(../images/preH.png);
+	}
+	.next{
+		width: 8px;
+		height: 15px;
+		background-image: url(../images/next.png);
+		position: absolute;
+		top: 50%;
+		margin-top: 15px;
+		right: 7px;
+		cursor: pointer;
+	}
+	.next:hover{
+		background-image: url(../images/nextH.png);
+	}
+}
+
+
+/* 底部 */
+@import "footer.scss";
+/* 侧边栏 */
+.ceBian{
+	width: 1225px;
+	margin: 0 auto;
+	.upward{
+		width: 60px;
+		height: 297px;
+		position: fixed;
+		margin-left: 1245px;
+		bottom: 20px;
+		a{
+			div{
+				width: 58px;
+				height: 63px;
+				background-color: #fff;
+				border-top: 1px solid #ededed;
+				border-left: 1px solid #ededed;
+				border-right: 1px solid #ededed;
+			}
+			/* 公众号 */
+			.WeChat{
+				text-align: center;
+				padding-top: 15px;
+				span{
+					display: block;
+					text-align: center;
+					font-size: 12px;
+					font-family: $fontfamily;
+					color: #29b572;
+					margin-top: 5px;
+				}
+			}
+			.WeChat:hover{
+				background: #f5f5f5;
+			}
+			/* 回到顶部 */
+			.up{
+				width: 60px;
+				height: 60px;
+				border: none;
+				background: #29b572 url(../images/top.png) 15px 21px no-repeat;
+				cursor: pointer;
+			}
+		}
+		.WeChatTu{
+			width: 182px;
+			height: 172px;
+			background-image: url(../images/WeChet.png);
+			position: absolute;
+			margin-left: -192px;
+			margin-top: -125px;
+			display: none;
+		}
+	}
+}

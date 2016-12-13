@@ -1,0 +1,76 @@
+@import "reset.scss";
+$fontfamily: "Microsoft YaHei";
+/* 头部 */
+header{
+	width: 100%;
+	height: 90px;
+	background-color: #fff;
+	.header{
+		width: 970px;
+		height: 90px;
+		margin: 0 auto;
+		.logo{
+			float: left;
+			margin-top: 26px;
+		}
+		.excavate{
+			float: left;
+			width: 105px;
+			height: 40px;
+			border-left: 1px solid #cccccc;
+			text-align: center;
+			font-family: $fontfamily;
+			font-size: 14px;
+			line-height: 40px;
+			color: #999999;
+			margin-top: 26px;
+			margin-left: 10px;
+		}
+		.keMu{
+			float: right;
+			margin-top: 35px;
+			li{
+				float: left;
+				a{
+					font-family: $fontfamily;
+					font-size: 14px;
+					color: #666666;
+					margin-left: 39px;
+				}
+				a:hover{
+					color: #29b572;
+				}
+			}
+		}
+	}
+}
+/* 背景 */
+article{
+	width: 100%;
+	height: 600px;
+	background: url(../images/login_bg.jpg) no-repeat center;
+	section{
+		width: 970px;
+		margin: 0 auto;
+		@import "loginlogon.scss";
+	}
+	
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 54px;
+	background-color: #fff;
+	.footer{
+		width: 970px;
+		margin: 0 auto;
+		span{
+			display: block;
+			padding-top: 18px;
+			text-align: center;
+			font-size: 13px;
+			font-family: $fontfamily;
+			color: #808080;
+		}
+	}
+}

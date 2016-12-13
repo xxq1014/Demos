@@ -1,0 +1,125 @@
+$fontfamily: "Microsoft YaHei";
+footer{
+	width: 100%;
+	height: 372px;
+	background-color: #fff;
+	.footer{
+		width: 1225px;
+		height: 301px;
+		margin: 0 auto;
+		position: relative;
+		.friendship{
+			width: 1225px;
+			height: 60px;
+			border-bottom: 1px solid #e8e8e8;
+			.linking{
+				font-size: 22px;
+				color: #333333;
+				padding-top: 14px;
+				font-family: $fontfamily;
+			}
+			ul{
+				margin-left: 80px;
+				margin-top: -25px;
+				li{
+					a{
+						float: left;
+						margin-left: 40px;
+						font-family: $fontfamily;
+						font-size: 14px;
+						color: #676767;
+					}
+					a:hover{
+						color: #333333;
+					}
+				}
+			}
+			.more{
+				float: right;
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #676767;
+				i{
+					font-family: none;
+					font-style: normal;
+					color: #999999;
+					margin-left: 4px;
+				}
+			}
+			.more:hover{
+				color: #333333;
+			}
+		}
+		.content{
+			float: left;
+			h3{
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #333333;
+				margin-top: 33px;
+				padding-bottom: 17px;
+			}
+			li{
+				margin-top: 11px;
+				a{
+					font-size: 13px;
+					font-family: $fontfamily;
+					color: #676767;
+				}
+				a:hover{
+					color: #333333;
+				}
+			}
+		}
+		.content:nth-child(3){
+			margin-left: 80px;
+		}
+		.content:nth-child(4){
+			margin-left: 109px;
+		}
+		.content:nth-child(5){
+			margin-left: 116px;
+		}
+		.content:nth-child(6){
+			margin-left: 122px;
+			img{
+				margin-top: 10px;
+			}
+		}
+		.app{
+			float: right;
+			h3{
+				font-size: 14px;
+				font-family: $fontfamily;
+				color: #333333;
+				margin-top: 33px;
+			}
+			img{
+				margin-top: 22px;
+			}
+			span{
+				display: block;
+				margin-top: 5px;
+				font-size: 12px;
+				color: #676767;
+				font-family: $fontfamily;
+				text-align: center;
+			}
+		}
+	}
+	.bottom{
+		width: 100%;
+		height: 70px;
+		border-top: 1px solid #e8e8e8;
+		span{
+			display: block;
+			width: 1224px;
+			margin: 0 auto;
+			padding-top: 18px;
+			text-align: center;
+			font-size: 13px;
+			font-family: $fontfamily;
+			color: #808080;
+		}
+	}
+}

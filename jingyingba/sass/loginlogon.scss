@@ -1,0 +1,365 @@
+$fontfamily: "Microsoft YaHei";
+input{
+	outline: none;
+}
+.logon{
+	width: 320px;
+	position: relative;
+	top: 76px;
+	float: right;
+	.logonTop{
+		width: 320px;
+		height: 50px;
+		border-bottom: 1px solid #cfcfcf;
+		background-color: #fff;
+		.deng,.zhu{
+			display: inline-block;
+			width: 160px;
+			height: 50px;
+			font-size: 16px;
+			font-family: $fontfamily;
+			line-height: 50px;
+			text-align: center;
+			color: #666666;
+			cursor: pointer;
+		}
+		.active{
+			height: 49px;
+			border-bottom: 2px solid #29b572;
+			color: #29b572;
+		}
+		a:hover{
+			height: 49px;
+			border-bottom: 2px solid #29b572;
+			color: #29b572;
+		}
+	}
+	.dengLu{
+		position: absolute;
+		width: 320px;
+		background-color: #e9f2ec;
+		.form1{
+			.tishi{
+				height: 14px;
+				margin: 10px 0 0 30px;
+				display: none;
+				div{
+					width: 14px;
+					height: 14px;
+					border-radius: 50%;
+					background: url(../images/tubiao.png) -1px 1155px;
+					float: left;
+				}
+				span{
+					font-size: 12px;
+					color: red;
+					float: left;
+					margin-left: 3px;
+					margin-top: 2px;
+				}
+			}
+			.loginMobile{
+				width: 258px;
+				height: 22px;
+				border: 1px solid #cccccc;
+				background-color: #fff;
+				margin: 36px auto 0;
+				padding: 9px 0;
+				span{
+					display: inline-block;
+					width: 12px;
+					height: 16px;
+					background-image: url(../images/tubiao.png);
+					background-position: -2px 0;
+					position: relative;
+					left: 10px;
+					top: 2px;
+				}
+				.loginMobileT{
+					width: 216px;
+					height: 20px;
+					font-size: 14px;
+					font-family: $fontfamily;
+					border: none;
+					border-left: 1px solid #e8e8e8;
+					padding-left: 9px;
+					margin-left: 15px;
+				}
+			}
+			.pass{
+				width: 258px;
+				height: 22px;
+				border: 1px solid #cccccc;
+				background-color: #fff;
+				margin: 10px auto 0;
+				padding: 9px 0;
+				span{
+					display: inline-block;
+					width: 15px;
+					height: 16px;
+					background-image: url(../images/tubiao.png);
+					background-position: -1px -25px;
+					position: relative;
+					left: 10px;
+					top: 3px;
+				}
+				.passW{
+					width: 216px;
+					height: 20px;
+					font-size: 14px;
+					font-family: $fontfamily;
+					border: none;
+					border-left: 1px solid #e8e8e8;
+					padding-left: 9px;
+					margin-left: 12px;
+				}
+			}
+			.yanzengma{
+				width: 260px;
+				height: 40px;
+				margin: 10px 0 0 30px;
+				.yanZeng{
+					width: 158px;
+					height: 20px;
+					border: 1px solid #cccccc;
+					background-color: #fff;
+					padding: 9px 0;
+					float: left;
+					span{
+						display: inline-block;
+						width: 11px;
+						height: 13px;
+						background-image: url(../images/tubiao.png);
+						background-position: -2px -51px;
+						position: relative;
+						left: 10px;
+						top: 3px;
+					}
+					.mobileT{
+						width: 117px;
+						height: 20px;
+						font-size: 14px;
+						font-family: $fontfamily;
+						border: none;
+						border-left: 1px solid #e8e8e8;
+						padding-left: 9px;
+						margin-left: 15px;
+					}
+				}
+				.verification{
+					float: right;
+					height: 40px;
+					img{
+						width: 90px;
+						height: 38px;
+						border: 1px solid #cccccc;
+					}
+				}
+			}
+			.check{
+				width: 13px;
+				height: 13px;
+				color: #29b572;
+				margin-left: 30px;
+				margin-top: 18px;
+			}
+			.jiZhu{
+				font-size: 12px;
+				color: #848585;
+				font-family: $fontfamily;
+			}
+			.wangJI{
+				float: right;
+				font-size: 12px;
+				color: #848585;
+				font-family: $fontfamily;
+				margin-right: 30px;
+				margin-top: 16px;
+			}
+			.button{
+				width: 260px;
+				height: 40px;
+				background-color: #29b572;
+				font-family: $fontfamily;
+				font-size: 16px;
+				color: #fff;
+				border: none;
+				margin-left: 30px;
+				margin-top: 10px;
+				cursor: pointer;
+				margin-bottom: 50px;
+			}
+		}
+	}
+	.zhuCe{
+		position: absolute;
+		width: 320px;
+		background-color: #e9f2ec;
+		display: none;
+		.form2{
+			.tishi{
+				height: 14px;
+				margin: 10px 0 0 30px;
+				display: none;
+				div{
+					width: 14px;
+					height: 14px;
+					border-radius: 50%;
+					background: url(../images/tubiao.png) -1px 1155px;
+					float: left;
+				}
+				span{
+					font-size: 12px;
+					color: red;
+					float: left;
+					margin-left: 3px;
+					margin-top: 2px;
+				}
+			}
+			.mobile{
+				width: 260px;
+				height: 22px;
+				border: 1px solid #cccccc;
+				background-color: #fff;
+				margin: 36px auto 0;
+				padding: 9px 0;
+				span{
+					display: inline-block;
+					width: 12px;
+					height: 16px;
+					background-image: url(../images/tubiao.png);
+					background-position: -2px 0;
+					position: relative;
+					left: 10px;
+					top: 2px;
+				}
+				.mobileText{
+					width: 210px;
+					height: 20px;
+					font-size: 14px;
+					font-family: $fontfamily;
+					border: none;
+					border-left: 1px solid #e8e8e8;
+					padding-left: 9px;
+					margin-left: 15px;
+				}
+			}
+			.captcha{
+				width: 160px;
+				height: 22px;
+				border: 1px solid #cccccc;
+				background-color: #fff;
+				margin: 10px 0 0 30px;
+				padding: 9px 0;
+				span{
+					display: inline-block;
+					width: 11px;
+					height: 13px;
+					background-image: url(../images/tubiao.png);
+					background-position: -2px -51px;
+					position: relative;
+					left: 10px;
+					top: 3px;
+				}
+				.mobileText{
+					width: 117px;
+					height: 20px;
+					font-size: 14px;
+					font-family: $fontfamily;
+					border: none;
+					border-left: 1px solid #e8e8e8;
+					padding-left: 9px;
+					margin-left: 15px;
+				}
+			}
+			.captchaRight{
+				width: 90px;
+				height: 30px;
+				display: inline-block;
+				border: 1px solid #29b572;
+				color: #29b572;
+				background-color: #f1f1f1;
+				border-radius: 2px;
+				font-family: $fontfamily;
+				font-size: 14px;
+				line-height: 30px;
+				text-align: center;
+				float: right;
+				margin-right: 30px;
+				margin-top: -37px;
+			}
+			.countdown{
+				width: 92px;
+				height: 32px;
+				display: inline-block;
+				color: #fff;
+				background-color: #cccccc;
+				border-radius: 2px;
+				font-family: $fontfamily;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				float: right;
+				margin-right: 30px;
+				margin-top: -37px;
+				display: none;
+			}
+			.password{
+				width: 260px;
+				height: 22px;
+				border: 1px solid #cccccc;
+				background-color: #fff;
+				margin: 15px auto 0;
+				padding: 9px 0;
+				span{
+					display: inline-block;
+					width: 15px;
+					height: 16px;
+					background-image: url(../images/tubiao.png);
+					background-position: -1px -25px;
+					position: relative;
+					left: 10px;
+					top: 3px;
+				}
+				.passT{
+					background-position: 0 -120px;
+				}
+				.passwordText{
+					width: 219px;
+					height: 20px;
+					font-size: 14px;
+					font-family: $fontfamily;
+					border: none;
+					border-left: 1px solid #e8e8e8;
+					padding-left: 9px;
+					margin-left: 12px;
+				}
+			}
+			.checkbox{
+				width: 13px;
+				height: 13px;
+				color: #29b572;
+				margin-left: 30px;
+				margin-top: 17px;
+			}
+			.terms{
+				font-size: 12px;
+				color: #848585;
+				font-family: $fontfamily;
+			}
+			.submit{
+				width: 260px;
+				height: 40px;
+				background-color: #29b572;
+				font-family: $fontfamily;
+				font-size: 16px;
+				color: #fff;
+				border: none;
+				margin-left: 30px;
+				margin-top: 10px;
+				cursor: pointer;
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
